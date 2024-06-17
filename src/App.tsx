@@ -5,8 +5,6 @@ import TodoForm from './components/TodoForm/TodoForm';
 import TodoList from './components/TodoList/TodoList';
 import { ITodo } from './components/interfaces';
 
-
-
 const App: React.FC = () => {
     const [todos, setTodos] = useState<ITodo[]>([])
 
